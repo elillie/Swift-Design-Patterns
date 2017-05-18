@@ -36,4 +36,24 @@ class Demonstrations {
         platform2product2.someMethod()
     }
     
+    static func demonstrateBuilder() {
+        let director = Director()
+        
+        let oneThingBuilder = OneThingBuilder()
+        let anotherThingBuilder = AnotherThingBuilder()
+        
+        director.setBuilder(oneThingBuilder)
+        director.constructProduct()
+        
+        let oneThing = director.getProduct()
+        
+        print("\(oneThing.property1!) \(oneThing.property2!)")
+        
+        director.setBuilder(anotherThingBuilder)
+        director.constructProduct()
+        
+        let anotherThing = director.getProduct()
+        
+        print("\(anotherThing.property1!) \(anotherThing.property2!)")
+    }
 }

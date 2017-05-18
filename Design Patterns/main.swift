@@ -9,4 +9,5 @@
 import Foundation
 
 //Demonstrations.demonstrateFactory()
-Demonstrations.demonstrateAbstractFactory()
+//Demonstrations.demonstrateAbstractFactory()
+Demonstrations.demonstrateBuilder()

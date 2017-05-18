@@ -11,6 +11,7 @@
 		FC2A255D1ECE22D700404627 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A255C1ECE22D700404627 /* Factory.swift */; };
 		FC2A25601ECE26BF00404627 /* Demonstrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A255F1ECE26BF00404627 /* Demonstrations.swift */; };
 		FC2A25621ECE282E00404627 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A25611ECE282E00404627 /* AbstractFactory.swift */; };
+		FC2A25641ECE3A0100404627 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A25631ECE3A0100404627 /* Builder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		FC2A255C1ECE22D700404627 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		FC2A255F1ECE26BF00404627 /* Demonstrations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demonstrations.swift; sourceTree = "<group>"; };
 		FC2A25611ECE282E00404627 /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		FC2A25631ECE3A0100404627 /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				FC2A255C1ECE22D700404627 /* Factory.swift */,
 				FC2A25611ECE282E00404627 /* AbstractFactory.swift */,
+				FC2A25631ECE3A0100404627 /* Builder.swift */,
 			);
 			name = "Creational Patterns";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				FC2A255D1ECE22D700404627 /* Factory.swift in Sources */,
 				FC2A25561ECE211800404627 /* main.swift in Sources */,
 				FC2A25601ECE26BF00404627 /* Demonstrations.swift in Sources */,
+				FC2A25641ECE3A0100404627 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
