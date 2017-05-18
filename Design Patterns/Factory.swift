@@ -27,13 +27,13 @@ protocol SomeProtocol {
     func someMethod()
 }
 
-class ProtocolConformingClass1: SomeProtocol {
+fileprivate class ProtocolConformingClass1: SomeProtocol {
     func someMethod() {
         print("ProtocolConformingClass1.someMethod()")
     }
 }
 
-class ProtocolConformingClass2: SomeProtocol {
+fileprivate class ProtocolConformingClass2: SomeProtocol {
     func someMethod() {
         print("ProtocolConformingClass2.someMethod()")
     }

@@ -8,5 +8,5 @@
 
 import Foundation
 
-Demonstrations.demonstrateFactory()
-
+//Demonstrations.demonstrateFactory()
+Demonstrations.demonstrateAbstractFactory()

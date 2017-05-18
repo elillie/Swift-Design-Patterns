@@ -17,6 +17,23 @@ class Demonstrations {
         
         let object2 = factory.getInstanceOfProtocolConformingClass(.class2)
         object2.someMethod()
-        
     }
+    
+    static func demonstrateAbstractFactory() {
+        let platform1Factory = FactoryMaker.getFactory(platform: .platform1)
+        let platform2Factory = FactoryMaker.getFactory(platform: .platform2)
+        
+        let platform1product1 = platform1Factory.createProduct1()
+        platform1product1.someMethod()
+        
+        let platform1product2 = platform1Factory.createProduct2()
+        platform1product2.someMethod()
+        
+        let platform2product1 = platform2Factory.createProduct1()
+        platform2product1.someMethod()
+        
+        let platform2product2 = platform2Factory.createProduct2()
+        platform2product2.someMethod()
+    }
+    
 }
