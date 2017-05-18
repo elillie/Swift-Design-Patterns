@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FC2A25561ECE211800404627 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A25551ECE211800404627 /* main.swift */; };
+		FC2A255D1ECE22D700404627 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A255C1ECE22D700404627 /* Factory.swift */; };
+		FC2A25601ECE26BF00404627 /* Demonstrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A255F1ECE26BF00404627 /* Demonstrations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		FC2A25521ECE211800404627 /* Design Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Design Patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2A25551ECE211800404627 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FC2A255C1ECE22D700404627 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		FC2A255F1ECE26BF00404627 /* Demonstrations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demonstrations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,18 @@
 			isa = PBXGroup;
 			children = (
 				FC2A25551ECE211800404627 /* main.swift */,
+				FC2A255F1ECE26BF00404627 /* Demonstrations.swift */,
+				FC2A255E1ECE22EE00404627 /* Creational Patterns */,
 			);
 			path = "Design Patterns";
+			sourceTree = "<group>";
+		};
+		FC2A255E1ECE22EE00404627 /* Creational Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				FC2A255C1ECE22D700404627 /* Factory.swift */,
+			);
+			name = "Creational Patterns";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +135,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2A255D1ECE22D700404627 /* Factory.swift in Sources */,
 				FC2A25561ECE211800404627 /* main.swift in Sources */,
+				FC2A25601ECE26BF00404627 /* Demonstrations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
