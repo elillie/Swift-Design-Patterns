@@ -65,4 +65,20 @@ class Demonstrations {
         sandalCreator.printProduct()
     }
     
+    static func demonstratePrototype() {
+        let thing1 = PrototypeFactory.getPrototype(thing: 1)
+        let thing2 = PrototypeFactory.getPrototype(thing: 2)
+        
+        thing1?.printThing()
+        thing2?.printThing()
+    }
+    
+    static func demonstrateSingleton() {
+        let singleton = Singleton.sharedInstance
+        
+        // let singleton = Singleton() doesn't compile because the init method was made private
+        
+        print(singleton)
+    }
+    
 }

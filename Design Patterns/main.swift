@@ -11,4 +11,6 @@ import Foundation
 //Demonstrations.demonstrateFactory()
 //Demonstrations.demonstrateAbstractFactory()
 //Demonstrations.demonstrateBuilder()
-Demonstrations.demonstrateFactoryMethod()
+//Demonstrations.demonstrateFactoryMethod()
+//Demonstrations.demonstratePrototype()
+Demonstrations.demonstrateSingleton()
