@@ -56,4 +56,13 @@ class Demonstrations {
         
         print("\(anotherThing.property1!) \(anotherThing.property2!)")
     }
+    
+    static func demonstrateFactoryMethod() {
+        let shoeCreator = ShoeCreator()
+        shoeCreator.printProduct()
+        
+        let sandalCreator = SandalCreator()
+        sandalCreator.printProduct()
+    }
+    
 }
