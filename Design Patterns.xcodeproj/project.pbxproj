@@ -14,6 +14,7 @@
 		FC2A25601ECE26BF00404627 /* Demonstrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A255F1ECE26BF00404627 /* Demonstrations.swift */; };
 		FC2A25621ECE282E00404627 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A25611ECE282E00404627 /* AbstractFactory.swift */; };
 		FC2A25641ECE3A0100404627 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A25631ECE3A0100404627 /* Builder.swift */; };
+		FC4288191ED7B05E00CA1009 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4288181ED7B05E00CA1009 /* Adapter.swift */; };
 		FC68991E1ED4FC5F006C9302 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68991D1ED4FC5F006C9302 /* FactoryMethod.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		FC2A255F1ECE26BF00404627 /* Demonstrations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demonstrations.swift; sourceTree = "<group>"; };
 		FC2A25611ECE282E00404627 /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbstractFactory.swift; path = "Creational Patterns/AbstractFactory.swift"; sourceTree = "<group>"; };
 		FC2A25631ECE3A0100404627 /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Builder.swift; path = "Creational Patterns/Builder.swift"; sourceTree = "<group>"; };
+		FC4288181ED7B05E00CA1009 /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Adapter.swift; path = "Structural Patterns/Adapter.swift"; sourceTree = "<group>"; };
 		FC68991D1ED4FC5F006C9302 /* FactoryMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FactoryMethod.swift; path = "Creational Patterns/FactoryMethod.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 				FC2A25551ECE211800404627 /* main.swift */,
 				FC2A255F1ECE26BF00404627 /* Demonstrations.swift */,
 				FC2A255E1ECE22EE00404627 /* Creational Patterns */,
+				FC4288171ED7B02C00CA1009 /* Structural Patterns */,
 			);
 			path = "Design Patterns";
 			sourceTree = "<group>";
@@ -89,6 +92,14 @@
 				FC0B16D51ED61FD70064BF65 /* Singleton.swift */,
 			);
 			name = "Creational Patterns";
+			sourceTree = "<group>";
+		};
+		FC4288171ED7B02C00CA1009 /* Structural Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				FC4288181ED7B05E00CA1009 /* Adapter.swift */,
+			);
+			name = "Structural Patterns";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC2A25621ECE282E00404627 /* AbstractFactory.swift in Sources */,
+				FC4288191ED7B05E00CA1009 /* Adapter.swift in Sources */,
 				FC2A255D1ECE22D700404627 /* Factory.swift in Sources */,
 				FC0B16A61ED549770064BF65 /* Prototype.swift in Sources */,
 				FC2A25561ECE211800404627 /* main.swift in Sources */,

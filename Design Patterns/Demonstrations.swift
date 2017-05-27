@@ -9,6 +9,9 @@
 import Foundation
 
 class Demonstrations {
+    
+    // MARK: Creational Patterns
+    
     static func demonstrateFactory() {
         let factory = Factory()
         
@@ -80,5 +83,20 @@ class Demonstrations {
         
         print(singleton)
     }
+    
+// MARK: Structural Patterns
+    
+    static func demonstrateAdapter() {
+        
+        let newRectangle: NewRectangle = RectangleAdapter(origin: CGPoint(x: 0.0,
+                                                                          y: 0.0),
+                                                          size: CGSize(width: 5.0,
+                                                                       height: 3.0))
+        
+        print((newRectangle as! RectangleAdapter).origin)
+        print((newRectangle as! RectangleAdapter).size)
+        
+    }
+    
     
 }
